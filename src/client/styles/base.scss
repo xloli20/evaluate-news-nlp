@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;900&display=swap');
+
+
+$displayMode: flex;
+header {
+    .logo {
+        color: aliceblue;
+        font: 45px Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+        width: 100px;
+        height: 100px;
+        letter-spacing: 1ch;
+    }
+}
+body {
+    display: $displayMode;
+    flex-direction: column;
+    min-height: 100vh;
+    font-family: 'Montserrat', sans-serif;
+    background: #EEE;
+}
+
+main {
+    flex: 2;
+}
+
+section {
+    max-width: 800px;
+    margin: 50px auto;
+    h1{ 
+        font-weight: 900;
+    }
+    h1 , h2{
+        text-align: center;
+        font-size: 1.5rem;
+        color: #2a2f4f;
+        margin: 0.5rem 0;
+    }
+}
+
+.results {
+    ul {
+        li {
+            margin: 0.5rem;
+            color: #2a2f4f;
+            font-weight: 400;
+            span {
+                font-weight: 600;
+            }
+        }
+    }
+}
